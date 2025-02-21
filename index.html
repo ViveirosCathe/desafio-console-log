@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+ </head>
+ <body>
+
+  <script>
+     
+     alert("Bem vindo ao Detran!");
+     let idade = prompt("Insira sua idade para saber se já pode tirar sua habilitação:");
+
+     console.log(idade);
+
+     function maiorIdade(){
+     if (idade >= 18 ){
+        alert( idade + " você já pode tirar sua habilitação!");
+        console.log(idade);
+     } else if (idade == 17 ){ 
+        alert(idade + " Falta pouco para você tirar sua habilitação!.");
+        console.log(idade);
+     }  else if(idade < 17){
+       alert( idade + " Infelizmente você ainda não pode tirar sua habilitação!");
+       console.log(idade);
+     }
+   }
+
+   maiorIdade();
+
+    </script>
+   </body>
+ </html>
